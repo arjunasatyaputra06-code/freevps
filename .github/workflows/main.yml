@@ -123,6 +123,11 @@ jobs:
               exit 1
           }
           Write-Host "TCP connectivity successful!"
+          
+      - name: Set Display Resolution
+        shell: pwsh
+        run: |
+          Set-DisplayResolution -Width 1600 -Height 650 -Force
 
       - name: Maintain Connection
         run: |
