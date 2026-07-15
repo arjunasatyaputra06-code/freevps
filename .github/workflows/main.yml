@@ -127,7 +127,7 @@ jobs:
       - name: Set Display Resolution
         shell: pwsh
         run: |
-          Set-DisplayResolution -Width 1600 -Height 300 -Force
+          Set-DisplayResolution -Width 1280 -Height 520 -Force
 
       - name: Maintain Connection
         run: |
